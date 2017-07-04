@@ -342,5 +342,10 @@
 
 <script src="config.js"></script>
 <script src="js/main.js"></script>
+
+<script>
+	pix_url = window.location.search.slice(17, window.location.search.length)
+	FILE.file_open_url_handler({url:pix_url})
+</script>
 </body>
 </html>
